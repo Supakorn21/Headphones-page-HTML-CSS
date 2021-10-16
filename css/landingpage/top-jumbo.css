@@ -1,0 +1,99 @@
+/* variables */
+*:focus{
+    outline: none;
+}
+:root {
+	--orange: #FEA83B;
+	--light-blue: #6066F2;
+	--purple: #B286F8;
+	--blue: #4C44C1;
+	--light-purple: #E6CDF9;
+	--shadow-color: rgba(0,0,0,0.25);
+    --text-grey: #aaacaf;
+  }
+
+
+#top-jumbo{
+    padding: 0 0 400px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 38%, rgba(235,205,242,1) 52%, rgba(156,167,255,1) 60%, rgba(237,175,250,1) 100%);
+    }
+
+#top-jumbo:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#top-jumbo .left-side{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#top-jumbo .left-side .large-number{
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .1;
+    color: var(--light-blue);
+    position: relative;
+    left: -20px;
+    top: 0px;
+    z-index: 1;
+}
+#top-jumbo .left-side .info-container{
+    position: relative;
+    top: -130px;
+}
+#top-jumbo .left-side .info-container h1{
+    color: var(--light-blue);
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+#top-jumbo .left-side .info-container p{
+    color: var(--text-grey);
+    line-height: 1.8;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#top-jumbo .left-side .info-container .email-area{
+    background: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+#top-jumbo .left-side .info-container .email-area .far{
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"]{
+    background: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    width: 230px;
+    border-radius: 50px;
+}
+#top-jumbo .left-side .info-container .email-area button{
+    background: var(--light-blue);
+    padding: 20px 50px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+#top-jumbo .right-side{
+    width: 60%;
+    display: inline-block;
+    float: left;
+    padding: 0 40px;
+}
+#top-jumbo .right-side img{
+    width: 100%;
+}
+

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import "reset.css";
 @import "landingpage/header.css";
+@import "landingpage/top-jumbo.css";
 
 /* variables */
 :root {
@@ -10,4 +11,20 @@
 	--blue: #4C44C1;
 	--light-purple: #E6CDF9;
 	--shadow-color: rgba(0,0,0,0.25);
+
+  }
+
+  .container{
+	  max-width: 1400px;
+	  margin: 0 auto;
+	  padding: 0 20px;
+  }
+  .container-fluid{
+	  margin: 0 5%;
+  }
+
+  .box-shadow-down{
+	  -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+	  -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+	  box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
   }
