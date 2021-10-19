@@ -1,11 +1,14 @@
-:root {
+:root{
 	--orange: #FEA83B;
 	--light-blue: #6066F2;
 	--purple: #B286F8;
 	--blue: #4C44C1;
 	--light-purple: #E6CDF9;
 	--shadow-color: rgba(0,0,0,0.25);
-  }
+    --light-grey: #f4f5f7;
+    --text-grey: #aaacaf;
+}
+
 
 header{
     padding: 30px 20px;

@@ -1,0 +1,163 @@
+/* variables */
+:root{
+	--orange: #FEA83B;
+	--light-blue: #6066F2;
+	--purple: #B286F8;
+	--blue: #4C44C1;
+	--light-purple: #E6CDF9;
+	--shadow-color: rgba(0,0,0,0.25);
+    --light-grey: #f4f5f7;
+    --text-grey: #aaacaf;
+}
+
+
+
+#color-collection{
+    padding: 0px 0 100px;
+}
+#color-collection .container:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+#color-collection .left-side{
+    width: 60%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+
+#color-collection .left-side img{
+    width: 80%;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+#color-collection .right-side{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#color-collection .right-side .swatch-area{
+    background: white;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 45px;
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+#color-collection .right-side .swatch-area:box-shadow-down{
+    content: "";
+    display: table;
+    clear: both;
+}
+#color-collection .right-side .swatch-area .circle{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(1){
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,157,253,1) 100%);
+}
+#color-collection .right-side .swatch-area .circle:nth-child(2){
+    background: rgb(241,253,45);
+    background: linear-gradient(0deg, rgba(241,253,45,1) 0%, rgba(195,93,34,1) 100%);
+}
+#color-collection .right-side .swatch-area .circle:nth-child(3){
+    background: rgb(45,253,139);
+    background: linear-gradient(0deg, rgba(45,253,139,1) 0%, rgba(34,195,166,1) 100%);
+    margin-right: 0;
+}
+
+#color-collection .right-side{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#color-collection .right-side:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+#color-collection .right-side .info-box{
+    max-width: 290px;
+    width: 100%;
+    background: white;
+    padding: 40px 20px;
+    display: inline-block;
+    text-align: center;
+}
+#color-collection .right-side .info-box h2{
+    font-size: 2rem;
+}
+#color-collection .right-side .info-box h2 span{
+    display: block;
+    text-align: center;
+}
+#color-collection .right-side .info-box h2 span.orange{
+    color: var(--orange);
+    font-weight: 100;
+}
+#color-collection .right-side .info-box h2 span.blue{
+    color: var(--light-blue);
+    font-weight: 700;
+}
+#color-collection .right-side .info-box h2 span.purple{
+    color: var(--purple);
+    font-weight: 100;
+}
+#color-collection .right-side .info-box p{
+    color: var(--text-grey);
+    font-size: .8rem;
+    margin: 40px 0;
+}
+#color-collection .right-side .info-box a{
+    color: var(--light-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 40px 0 20px;
+    display: block;
+}
+#color-collection .right-side .info-box .line{
+    height: 2px;
+    width: 50px;
+    background: var(--light-blue);
+    display: inline-block;
+}
+#color-collection .right-side .color-slider{
+    width: 20px;
+    height: 640px;
+    border-radius: 40px;
+    position: relative;
+    background: rgb(232,26,26);
+    background: linear-gradient(180deg, rgba(232,26,26,1) 0%, rgba(247,155,15,1) 13%, rgba(244,250,0,1) 26%, rgba(63,255,37,1) 36%, rgba(47,238,223,1) 47%, rgba(85,162,227,1) 59%, rgba(178,127,188,1) 71%, rgba(211,135,166,1) 84%, rgba(239,0,255,1) 100%);
+}
+#color-collection .right-side .color-slider .picker{
+    width: 20px;
+    height: 20px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background: var(--orange);
+    box-sizing: content-box;
+    position: absolute;
+    top: 200px;
+    left: -10px;
+}
+
+#color-collection .right-side .col-1{
+    float: left;
+    width: 80%;
+}
+#color-collection .right-side .col-2{
+    float: left;
+    width: 20%;
+}
+
