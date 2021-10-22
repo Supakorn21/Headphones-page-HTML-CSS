@@ -8,6 +8,7 @@
 	--shadow-color: rgba(0,0,0,0.25);
     --light-grey: #f4f5f7;
 	--text-grey: #aaacaf;
+    --light-placeholder: #d5e2ea;
 }
 #blue-print{
     background: rgb(24,26,78);

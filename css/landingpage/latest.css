@@ -8,6 +8,8 @@
 	--shadow-color: rgba(0,0,0,0.25);
     --light-grey: #f4f5f7;
 	--text-grey: #aaacaf;
+    --light-placeholder: #d5e2ea;
+    --light-social-media: #E6CDF9;
 }
 
 #latest{
@@ -156,4 +158,103 @@
     background: rgb(45,253,139);
     background: linear-gradient(0deg, rgba(45,253,139,1) 0%, rgba(34,195,166,1) 100%);
     color: white;
+}
+#latest .body .column .line{
+   width: 20%;
+   height: 2px;
+   background: var(--light-blue);
+   margin: 50px auto;
+   display: inline-block;
+}
+#latest .body .column .price{
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 2.3rem;
+
+}
+#latest .footer{
+    text-align: center;
+    position: relative;
+}
+#latest .footer img{
+    width: 30%;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    filter: grayscale(100%) invert(100%);
+    opacity: .2;
+    transform: rotate(30deg);
+}
+#latest .footer .info-box{
+    position: relative;
+    z-index: 2;
+    padding: 200px 0;
+}
+#latest .footer .info-box h2{
+    color: var(--light-blue);
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+#latest .footer .info-box  form{
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+#latest .footer .info-box .input-area{
+    background: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+}
+#latest .footer .info-box .input-area .far{
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+    color: var(--light-placeholder);
+}
+#latest .footer .info-box .input-area:nth-child(1){
+    height: 80px;
+    margin-right: 50px;
+}
+#latest .footer .info-box .input-area input{
+    background: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    width: 230px;
+    border-radius: 50px;
+}
+#latest .footer .info-box .input-area:nth-child(1) input{
+    position: relative;
+    top: 8px;
+}
+#latest .footer .info-box .input-area:nth-child(1) .far{
+    position: relative;
+    top: 14px;
+    
+}
+#latest .footer .info-box .input-area button{
+    background: var(--light-blue);
+    padding: 20px 50px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+footer .social-media li {
+    display: inline-block;
+    padding: 0 12px;
+}
+footer .social-media li a{
+    color: var(--light-social-media);
+    font-size: 2rem;
+    opacity: .5;
 }

@@ -11,6 +11,7 @@
 	--shadow-color: rgba(0,0,0,0.25);
     --text-grey: #aaacaf;
     --light-grey: #f4f5f7;
+    --light-placeholder: #d5e2ea;
   }
 
 
@@ -70,6 +71,7 @@
     position: relative;
     top: 7px;
     margin-left: 15px;
+    color: var(--light-placeholder);
 }
 #top-jumbo .left-side .info-container .email-area input[type="email"]{
     background: white;
