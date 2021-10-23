@@ -94,3 +94,18 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+  /* Laptops device */
+  @media only screen and (max-width: 1215px) {
+	  
+}
+
+/* Tablets device */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* Mobile device */
+@media only screen and (max-width: 767px) {
+
+}

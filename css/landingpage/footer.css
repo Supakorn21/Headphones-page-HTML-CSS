@@ -48,3 +48,18 @@ footer p{
     font-weight: 300;
     margin-bottom: 40px;
 }
+
+  /* Laptops device */
+  @media only screen and (max-width: 1215px) {
+	  
+}
+
+/* Tablets device */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* Mobile device */
+@media only screen and (max-width: 767px) {
+
+}
